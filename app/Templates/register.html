@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+{% include 'Components/notifications.html' %}
+    <main class="conteiner">
+        <form class="form1" action="{{url_for('register')}}" method = "POST">
+            <input type="text" name="userName" id="userName" placeholder="Informe seu nome">
+            <input type="text" name="nickName" id="nickname" placeholder="Informe um username.">
+            <input type="password" name="passWord" id="senha" placeholder="Defina uma senha.">
+            <input type="text" name="turMa" id="turma" placeholder="Informe sua turma.">
+            <input type="text" name="moduLo" id="modulo" placeholder="Informe o modulo que esta estudando.">
+            <input id="btn" type="submit" value="S U B M I T">
+            <p style= color:rgb(152,200,255);;margin-left:10px;>Projeto acadêmico, onde todos os dados são reservados para estudos.</p>
+        </form>
+    </main>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+{% include 'Components/notifications.html' %}
+    <main class="conteiner">
+        <h2 class="wlc">Seja bem vindo! </h2>
+        <div class="boxuser">
+        <h3 class="nameuser">{{ Query.userName }}</h3>
+        <h4 class="turmauser">Turma: {{ Query.turMa }}</h4>
+        </div>
+        <form action="{{url_for('profile',id = Query.id)}}" method="POST">
+            <textarea type="text" name="fdBack" id="fdback" placeholder="feedback do aluno max(255)character"></textarea>
+            <p class="satslabel">Esta satisfeito com o curso?</p>
+            <div class="satisfacao">
+            <label for="opcao">Sim
+            <input type="radio" name="opcao" value="sim" class="opt"></label>
+            <label for="opcao">Não</label>
+            <input type="radio" name="opcao" value="nao" class="opt">
+            <input style=margin-left:25px; id="btn" type="submit" value="Enviar">
+            </div>
+            <div class="useroption">
+            <a href="{{url_for('index')}}">voltar</a>
+            </div>
+        </form>
+    </main>
+{% endblock %}

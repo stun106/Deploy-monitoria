@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #171922;
+}
+.cabecalho{ 
+    text-align: center;
+    
+    margin: 20px;
+    margin: auto;
+    display: block;
+}
+
+.title,h2{
+    font-size: max(53px, 4vw);
+    font-variant:small-caps;
+    font-family: 'Abril Fatface', cursive;
+    color: rgba(57, 182, 57, 0.993);
+    
+    display: inline;
+    flex-direction: row;
+    
+}
+h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: max(53px, 4vw);
+    font-variant: small-caps;
+    
+    color: rgb(110, 28, 80);
+}
+
+ul{
+    margin: 20px;
+}
+.menu,a{
+    display: inline;
+    flex-direction: row;
+    padding: 10px;
+
+    font-size: 1.3em;
+    text-decoration: none;
+    color: rgb(226, 226, 128);
+}
+a:hover{
+    text-shadow: 2px 2px 4px rgb(189, 189, 121);
+}
+
+.icon0{
+    max-width: 100%;
+    width: 800px;
+    height: 500px;
+    
+    margin: auto;
+    display: block;
+}
+
+img{
+    max-width: 100%;
+    width: 60px;
+    height: 40px;
+    
+    margin: auto;
+    display: block;
+}
+
+footer{
+    margin-top: 30px;
+    padding: 20px;
+}
+.rodape{
+    background-color:rgba(24, 23, 23, 0.534);
+}
+
+/* final da estilização index  */
+/* inicio da estilização register */
+
+.conteiner{
+    padding: 60px; 
+    margin: auto;
+    display: block;
+    max-width: 472px;
+
+}
+#btn{
+    font-family: 'Abril Fatface', cursive;
+}
+#btn:hover{
+    
+    background-color: rgb(110, 28, 80);
+}
+
+input{
+    width: 300px;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 10px;
+}
+input:focus{
+    background-color: rgb(189, 189, 121);
+}
+
+/*final da estilização register*/
+/*inicio da estilização notification*/
+
+.notification{
+    text-align: center;
+
+    color: rgb(152, 200, 255);
+    background-color:rgb(110, 28, 80) ;
+    padding:20px;
+
+}
+
+/*final da estilização register */
+/* inicio da estilização userpage */
+
+
+.wlc{
+    font-size: 3.5em;
+    color: rgba(57, 182, 57, 0.993);
+}
+.boxuser{
+    display: flex;
+    flex-direction: row;
+}
+.nameuser{
+    margin-left: 20px;
+    font-size: 1.5em;
+    color: rgb(152, 200, 255);
+
+}
+.turmauser{
+    margin-left: 25px;
+    font-size: 1.5em;
+    color: rgb(152, 200, 255);
+}
+
+.useroption{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.satslabel{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(152, 200, 255);
+}
+
+.opt{
+    width: 10px;
+    margin: 5px;
+}
+label{
+    color: rgb(152, 200, 255);
+}
+textarea{
+    margin-top: 30px;
+    width: 350px;
+    height: 100px;
+}
+textarea:focus-visible{
+    background-color: rgb(189, 189, 121);
+}

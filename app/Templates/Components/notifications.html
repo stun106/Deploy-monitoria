@@ -1,0 +1,9 @@
+{% with notifications = get_flashed_messages() %}
+{% if notifications %}
+    {% for notification in notifications %}
+    <div class="notification">
+        {{ notification }}
+    </div>
+    {% endfor %}
+{% endif %}
+{% endwith %}
