@@ -1,5 +1,5 @@
 # Deploy-monitoria
- Aplicação Web feita com python para fins acadêmicos
+ Aplicação Web feita com python para fins acadêmicos.
 
 visando a nescessidade de feedbacks dos alunos em turmas que faço monitoria 
 no curso programação fullstack tive a ideia de fazer essa aplicação para por 
