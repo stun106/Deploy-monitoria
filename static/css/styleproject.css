@@ -41,7 +41,7 @@ ul{
 .menu,a{
     display: inline;
     flex-direction: row;
-    padding: 10px;
+    padding: 5px;
 
     font-size: 1.3em;
     text-decoration: none;
